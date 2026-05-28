@@ -7,7 +7,7 @@ pipeline {
             steps {
                 git url: 'https://github.com/gnaanesh-ks/Web_app_using_Docker.git',
                     branch: 'main',
-                    credentialsId: 'github-credentials'
+                    credentialsId: 'gitid'
             }
         }
 
